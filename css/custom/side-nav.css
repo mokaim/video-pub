@@ -1,6 +1,7 @@
-#side-nav {
+#side-nav-container {
     min-height: 100vh;
     width: 250px;
+
 }
 
 .nav-link.active {
@@ -8,7 +9,7 @@
     background-color: #fff !important;
 }
 
-#side-nav i {
+#side-nav-container i {
     font-size: 1.5rem;
     vertical-align: -0.125em;
 }
@@ -21,3 +22,9 @@
     border-width: 1px;
 }
 
+
+#side-nav {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+}
