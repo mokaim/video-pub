@@ -1,0 +1,5 @@
+hls_video_design/
+
+*.iml
+.idea
+.gitignore
