@@ -1,0 +1,18 @@
+.test_container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px, auto));
+    /*grid-template-rows: repeat(3, minmax(200px, auto));*/
+    grid-auto-rows: minmax(200px, auto);
+    row-gap: 3px;
+    column-gap: 3px;
+}
+
+.test_item {
+    border: 2px solid #1a1e21;
+}
+
+.test_item:nth-child(1) {
+    grid-column-start : 1;
+    grid-column-end: 3;
+    background-color: #0b5ed7;
+}

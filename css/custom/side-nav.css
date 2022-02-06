@@ -1,0 +1,23 @@
+#side-nav {
+    min-height: 100vh;
+    width: 250px;
+}
+
+.nav-link.active {
+    color: #2f2f2f !important;
+    background-color: #fff !important;
+}
+
+#side-nav i {
+    font-size: 1.5rem;
+    vertical-align: -0.125em;
+}
+
+
+
+.layout_test {
+    border-style: solid;
+    border-color : white;
+    border-width: 1px;
+}
+
