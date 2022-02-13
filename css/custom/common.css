@@ -6,10 +6,6 @@ body {
     background-color: var(--bs-dark);
 }
 
-#top-nav {
-    height: 20vh;
-}
-
 
 .navbar .search-bar{
     background-color: var(--navbar-color) !important;
@@ -45,7 +41,6 @@ input::-webkit-search-results-decoration{
     padding-bottom: 0.3125rem;
     padding-left: 0.3125rem;
     padding-right: 0.3125rem;
-    margin-right: auto;
     font-size: 1.5rem;
     text-decoration: none;
     white-space: nowrap;
@@ -89,3 +84,11 @@ CSS 개체 에 맞게 이미지를 확장하고 자르는 방법
 }
 
 
+#articles {
+    margin-left: 260px;
+    margin-top : 9rem;
+}
+
+#body-layout {
+    left: 260px;
+}
