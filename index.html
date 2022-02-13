@@ -26,9 +26,12 @@
 </head>
 <body>
 <!--  TOP 네비게이션 -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark pt-5 pb-5 layout_test" id="top-nav">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-between flex-nowrap" id="top-nav"r>
 
-  <div class="w-100 d-flex justify-content-center">
+  <div class="d-lg-block" style="display: none">
+  </div>
+
+  <div class="d-block ms-3 ms-lg-0">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navSearchBar"
             aria-controls="navSearchBar" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -41,7 +44,14 @@
     </form>
 
   </div>
-  <div class="w-25 d-flex justify-content-end align-items-center me-5">
+  <div class="d-lg-none">
+    <a href="#" class="navbar-brand">
+      <i class='bx bx-play-circle bx-sm'></i>
+      <span class="h3">VideoProject</span>
+    </a>
+  </div>
+
+  <div class="d-flex align-items-center me-3">
     <a href="#" class="navbar-notification me-3" style="">
       <i class='bx bxs-bell'></i>
     </a>
@@ -79,7 +89,7 @@
 </nav>
 
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark pt-5 d-lg-block layout_test" id="side-nav"
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark d-lg-block " id="side-nav"
      style="display: none">
   <div class="d-flex flex-column flex-shrink-0 text-white bg-dark ps-3 pe-3 pb-3 me-0"
        id="side-nav-container">
@@ -129,7 +139,7 @@
 
     </div>-->
 
-    <div class="col-xxl-9 layout_test">
+    <div class="col-lg-12 ">
 
       <main class="me-lg-5 p-lg-0 p-3">
         <!--<div class="row">
@@ -139,45 +149,65 @@
           </article>
         </div>-->
         <div class="row">
-          <article class="col-xxl-4 col-lg-4 col-md-4 col-6">
-            <div class="d-flex flex-column justify-content-center text-white ">
-              <img src="./img/home/neon.jpg" class="img-fluid article-radius ">
-              <div class="m-3">
-                <p class="h4">test1</p>
-                <p>네온화면</p>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+            <article>
+              <div class="d-flex flex-column justify-content-center text-white ">
+                <img src="./img/home/neon.jpg" class="img-fluid article-radius ">
+                <div class="m-3">
+                  <p class="h4">test1</p>
+                  <p>네온화면</p>
+                </div>
               </div>
-            </div>
-          </article>
+            </article>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+            <article>
+              <div class="d-flex flex-column justify-content-center text-white ">
+                <img src="./img/home/neon_logo.jpg" class="img-fluid article-radius ">
+                <div class="m-3">
+                  <p class="h4">test1</p>
+                  <p>네온화면</p>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+            <article>
+              <div class="d-flex flex-column justify-content-center text-white ">
+                <img src="./img/home/dream-planet.jpg" class="img-fluid article-radius ">
+                <div class="m-3">
+                  <p class="h4">test1</p>
+                  <p>네온화면</p>
+                </div>
+              </div>
+            </article>
+          </div>
 
-          <article class="col-xxl-4 col-lg-4 col-md-4 col-6">
-            <div class="d-flex flex-column justify-content-center text-white ">
-              <img src="./img/home/neon_logo.jpg" class="img-fluid article-radius ">
-              <div class="m-3">
-                <p class="h4">test2</p>
-                <p>네온로고</p>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+            <article>
+              <div class="d-flex flex-column justify-content-center text-white ">
+                <img src="./img/home/dream-planet-02.jpg" class="img-fluid article-radius ">
+                <div class="m-3">
+                  <p class="h4">test1</p>
+                  <p>네온화면</p>
+                </div>
               </div>
-            </div>
-          </article>
+            </article>
+          </div>
 
-          <article class="col-xxl-4 col-lg-4 col-md-4 col-6">
-            <div class="d-flex flex-column justify-content-center text-white img">
-              <img src="./img/home/dream-planet.jpg" class="img-fluid article-radius">
-              <div class="m-3">
-                <p class="h4">test3</p>
-                <p>꿈의 행성</p>
-              </div>
-            </div>
-          </article>
 
-          <article class="col-xxl-4 col-lg-4 col-md-4 col-6">
-            <div class="d-flex flex-column justify-content-center text-white ">
-              <img src="./img/home/dream-planet-02.jpg" class="img-fluid article-radius ">
-              <div class="m-3">
-                <p class="h4">test4</p>
-                <p>꿈의 행성2</p>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+            <article>
+              <div class="d-flex flex-column justify-content-center text-white ">
+                <img src="./img/home/dream-planet-02.jpg" class="img-fluid article-radius ">
+                <div class="m-3">
+                  <p class="h4">test1</p>
+                  <p>네온화면</p>
+                </div>
               </div>
-            </div>
-          </article>
+            </article>
+          </div>
+
 
 
 
